@@ -1,0 +1,166 @@
+.teamcont {
+    width: 100%;
+    height: 130vh;
+    background-color: #ffff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    gap: 10px;
+}
+
+
+.teamtitle {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.teamtitle h2{
+    color: #2b9348;
+    font-size: 1.55em;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+.teamtitle h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.swipercont {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.teamswiper {
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 40px;
+    background-color: #ffff;
+    position: relative;
+}
+
+.teamsslide {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 5px;
+}
+
+
+.teamimgcont {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.teamimg {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.introcont {
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    background-color: #fff;
+    color: #2b9348;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.introtitle {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.introtitle h4 {
+    color: darkslategray;
+    font-size: 1.3em;
+    font-weight:500;
+}
+
+.introtitle p {
+    color: #004b23;;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.introicons {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #004b23;
+}
+
+.icons {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.icons:hover {
+    color: #f4d58d;
+    transition: 1s;
+}
+
+.swiperbtns {
+    width: 100%;
+    height: 15%;
+    position:relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding: 200px;
+}
+
+
+.swiperbtns button {
+    width: 60px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background-color: hsl(210, 100%, 50%);
+    color: #fff;
+    margin: 0px 0.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+    transition: all .5s;
+    z-index: 100;
+  }
+  
+  .swiperbtns button:hover {
+    background-color: hsl(210, 100%, 40%);
+    cursor: pointer;
+  }

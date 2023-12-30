@@ -1,0 +1,61 @@
+.mapcont {
+    height: 80vh;
+    width: 100%;
+    background-color: #ffff;
+    position: relative;
+}
+
+.mapimg {
+    height: 100%;
+    width: 100%;
+    background-image: url('../../Images/maps/map2.jpg');
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapoverlay {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(8, 28, 21, 0.5);
+}
+
+.mapbtn {
+    position: relative;
+    height: 10vh;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    background-color: #ffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.15), 0 2px 2px rgba(0,0,0,0.15), 0 4px 4px rgba(0,0,0,0.15), 0 8px 8px rgba(0,0,0,0.15);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.mapbtn:hover {
+    background-color: #2b9348;
+    color: #ffff;
+    transition: 1s;
+}
+
+.mapicon {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.maptitle {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

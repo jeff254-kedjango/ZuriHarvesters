@@ -1,0 +1,8 @@
+.cont {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    min-height: 100vw;
+    width: 100vw;
+    background-color: #fefee3;
+}

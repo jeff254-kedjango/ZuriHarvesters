@@ -1,0 +1,186 @@
+.blogsneak {
+    height: 130vh;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+
+.bloghd {
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.bloghd h2{
+    color: #004b23;
+    font-size: 1.55em;
+    word-spacing: 5px;
+    font-weight: 500;
+}
+
+.bloghd h1 {
+    font-size: 3.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+.blogitems {
+    height:95vh;
+    width:100%;
+    padding: 20px;
+}
+
+.blogposts {
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    padding: 50px;
+}
+  
+.swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+.swiperslide {
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.2s;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.11), 0 2px 2px rgba(0,0,0,0.11), 0 4px 4px rgba(0,0,0,0.11), 0 6px 8px rgba(0,0,0,0.11), 0 8px 16px rgba(0,0,0,0.11);
+}
+
+.swiperslide:hover {
+    height: 102%;
+    transition: 0.2s;
+}
+
+.swiperhd {
+    height: 18%;
+    width: 100%;
+    background-color: #ffff;
+    display: flex;
+    font-weight: 500;
+}
+
+.dp {
+    width: 15%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.dptitle {
+    background-color: #fff;
+    color: #004b23;
+    font-weight: 400;
+    border-radius: 50%;
+    border: 2px solid rgba(214, 140, 69, 0.7);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardname {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    text-align:center;
+}
+
+.cardname h3{
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.swiperimage {
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+
+.imagecont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swipericons {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    margin-bottom: 5px;
+    gap: 8px;
+    padding: 5px;
+}
+
+.swiperdtl {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    padding:0px 5px;
+}
+
+.swiperdtl h3 {
+    font-size: 1em;
+}
+
+.datecont {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.datecont p {
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.details {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.details p {
+    font-size: 0.9em;
+}
+

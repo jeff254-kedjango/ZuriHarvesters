@@ -1,0 +1,198 @@
+.blogmain {
+    width: 100%;
+    height: auto;
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+
+.blogcont {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.backdrop {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkslategrey;
+    background-image: url('../../Images/background/blog.jpg');
+    background-position: center;
+}
+
+.backdropcont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 75, 35, 0.2);
+    color: #ffff;
+}
+
+.backdropcont h1 {
+    font-size:2em;
+    font-weight: 700;
+}
+
+.blogitems {
+    height:auto;
+    width:100%;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 5px;
+    padding:30px 70px;
+}
+
+
+.blog {
+    /* Center slide text vertically */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+    height: 65vh;
+    width: 100%;
+    border-radius: 5px;
+    transition: 0.2s;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+}
+
+
+.blog:hover {
+    height: 66vh;
+    transition: 0.2s;
+}
+
+.blogimage {
+    height: 65%;
+    width: 100%;
+    position: relative;
+    border-radius: 5px;
+}
+
+.imagecont{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+.blogdetails {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    padding: 5px;
+}
+
+.datecont {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.datecont p {
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.blogtitle {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    text-align: left;
+    padding: 10px 5px;
+
+}
+
+
+.blogtitle h3 {
+    font-size: 1em;
+}
+
+.details {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.details p {
+    font-size: 0.9em;
+}
+
+/* Pagination */
+
+
+.ptn {
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-right: 100px;
+}
+
+.ptnbutton {
+    height: 10vh;
+    width: 15vw;
+    background-color: #004b23;
+    color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25), 0 2px 8px rgba(0, 0, 0, 0.25), inset 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.ptninput {
+    height: 10vh;
+    width: 10vw;
+    margin: 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004b23;
+    font-weight: 500;
+    gap: 2px;
+}
+
+
+.ptninput input{
+    height: 90%;
+    width: 50%;
+    color: #004b23;
+    font-size: 1em;
+    font-weight: 400;
+    padding: 5px;
+}

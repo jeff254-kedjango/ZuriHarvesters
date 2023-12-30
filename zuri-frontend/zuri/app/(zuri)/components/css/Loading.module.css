@@ -1,0 +1,15 @@
+.cont {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ width: 100vw;
+ height: 100vh;
+ background-color: #004b23;
+ color: #f2e8cf;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+}
+
+
